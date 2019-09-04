@@ -6,3 +6,4 @@
 
 - Rocio Landaverde
 - Luis Orellana
+- Gerardo Chinchilla
