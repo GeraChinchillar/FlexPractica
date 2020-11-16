@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelo</title>
+</head>
+<body>
+    <form method="GET">
+        <p>
+            <label for="numero_vuelo">Numero de Vuelo</label>
+            <input type="text" id="numero_vuelo" placeholder="Ingrese el numero de vuelo">
+        </p>
+        <p>
+            <label for="fecha_salida">Fecha y hora de salida </label>
+            <input type="datetime-local" name="fechaHora" id="fecha_salida">
+        </p>
+        <p>
+            <label for="fecha_llegada">Fecha y hora de llegada </label>
+            <input type="datetime-local" name="fechaHora" id="fecha_llegada">
+        </p>
+        <p>
+            <label for="origen_options">Lugar de Origen</label>
+            <select name="menu" id="origen_options">
+                <option value="0">...</option>
+                <option value="1">El Salvador</option>
+                <option value="2">Atlanta</option>
+                <option value="3">Madrid</option>
+                <option value="4">Barcelona</option>
+                <option value="5">Buenos Aires</option>
+                <option value="6">Bogota</option>
+            </select>
+
+            <label for="destino_options">Lugar de Destino</label>
+            <select name="menu" id="destino_options">
+                <option value="0">...</option>
+                <option value="1">El Salvador</option>
+                <option value="2">Atlanta</option>
+                <option value="3">Madrid</option>
+                <option value="4">Barcelona</option>
+                <option value="5">Buenos Aires</option>
+                <option value="6">Bogota</option>
+            </select>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <title>Pago</title>
+</head>
+<body>
+    <form method="GET">
+        <div>
+            <p>
+                <label for="Nombre_pago">Nombre de propietario</label>
+                <input type="text" id="Nombre_pago" placeholder="Propietario de la cuenta">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="password">Numero de Cuenta</label>
+                <input type="password" id="password" placeholder="Numero de cuenta">
+                
+                <button  type="button" onclick="mostrarContrasena()">Mostrar Contraseña</button>
+            </p>    
+        </div>
+
+        <div>
+            <p>
+                <label for="boleto_pago">Boleto de abordaje</label>
+                <input type="text" id="boleto_pago" placeholder="Boleto a pagar">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="fecha_pago">Fecha de pago</label>
+                <input type="date" id="fecha_pago">
+            </p>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
